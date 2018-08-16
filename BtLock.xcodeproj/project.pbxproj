@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		354289CA2125B7040045D7FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354289C92125B7040045D7FD /* AppDelegate.swift */; };
+		354289CC2125B7040045D7FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354289CB2125B7040045D7FD /* ViewController.swift */; };
+		354289CF2125B7040045D7FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354289CD2125B7040045D7FD /* Main.storyboard */; };
+		354289D12125B7060045D7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354289D02125B7060045D7FD /* Assets.xcassets */; };
+		354289D42125B7060045D7FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354289D22125B7060045D7FD /* LaunchScreen.storyboard */; };
+		354289DF2125B7060045D7FD /* BtLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354289DE2125B7060045D7FD /* BtLockTests.swift */; };
+		354289EA2125B7060045D7FD /* BtLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354289E92125B7060045D7FD /* BtLockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		354289DB2125B7060045D7FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354289BE2125B7040045D7FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 354289C52125B7040045D7FD;
+			remoteInfo = BtLock;
+		};
+		354289E62125B7060045D7FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354289BE2125B7040045D7FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 354289C52125B7040045D7FD;
+			remoteInfo = BtLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		354289C62125B7040045D7FD /* BtLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BtLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		354289C92125B7040045D7FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		354289CB2125B7040045D7FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		354289CE2125B7040045D7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		354289D02125B7060045D7FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		354289D32125B7060045D7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		354289D52125B7060045D7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354289DA2125B7060045D7FD /* BtLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BtLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		354289DE2125B7060045D7FD /* BtLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtLockTests.swift; sourceTree = "<group>"; };
+		354289E02125B7060045D7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354289E52125B7060045D7FD /* BtLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BtLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		354289E92125B7060045D7FD /* BtLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtLockUITests.swift; sourceTree = "<group>"; };
+		354289EB2125B7060045D7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		354289C32125B7040045D7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354289D72125B7060045D7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354289E22125B7060045D7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		354289BD2125B7040045D7FD = {
+			isa = PBXGroup;
+			children = (
+				354289C82125B7040045D7FD /* BtLock */,
+				354289DD2125B7060045D7FD /* BtLockTests */,
+				354289E82125B7060045D7FD /* BtLockUITests */,
+				354289C72125B7040045D7FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		354289C72125B7040045D7FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				354289C62125B7040045D7FD /* BtLock.app */,
+				354289DA2125B7060045D7FD /* BtLockTests.xctest */,
+				354289E52125B7060045D7FD /* BtLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		354289C82125B7040045D7FD /* BtLock */ = {
+			isa = PBXGroup;
+			children = (
+				354289C92125B7040045D7FD /* AppDelegate.swift */,
+				354289CB2125B7040045D7FD /* ViewController.swift */,
+				354289CD2125B7040045D7FD /* Main.storyboard */,
+				354289D02125B7060045D7FD /* Assets.xcassets */,
+				354289D22125B7060045D7FD /* LaunchScreen.storyboard */,
+				354289D52125B7060045D7FD /* Info.plist */,
+			);
+			path = BtLock;
+			sourceTree = "<group>";
+		};
+		354289DD2125B7060045D7FD /* BtLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				354289DE2125B7060045D7FD /* BtLockTests.swift */,
+				354289E02125B7060045D7FD /* Info.plist */,
+			);
+			path = BtLockTests;
+			sourceTree = "<group>";
+		};
+		354289E82125B7060045D7FD /* BtLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				354289E92125B7060045D7FD /* BtLockUITests.swift */,
+				354289EB2125B7060045D7FD /* Info.plist */,
+			);
+			path = BtLockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		354289C52125B7040045D7FD /* BtLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354289EE2125B7060045D7FD /* Build configuration list for PBXNativeTarget "BtLock" */;
+			buildPhases = (
+				354289C22125B7040045D7FD /* Sources */,
+				354289C32125B7040045D7FD /* Frameworks */,
+				354289C42125B7040045D7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BtLock;
+			productName = BtLock;
+			productReference = 354289C62125B7040045D7FD /* BtLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		354289D92125B7060045D7FD /* BtLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354289F12125B7060045D7FD /* Build configuration list for PBXNativeTarget "BtLockTests" */;
+			buildPhases = (
+				354289D62125B7060045D7FD /* Sources */,
+				354289D72125B7060045D7FD /* Frameworks */,
+				354289D82125B7060045D7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354289DC2125B7060045D7FD /* PBXTargetDependency */,
+			);
+			name = BtLockTests;
+			productName = BtLockTests;
+			productReference = 354289DA2125B7060045D7FD /* BtLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		354289E42125B7060045D7FD /* BtLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354289F42125B7060045D7FD /* Build configuration list for PBXNativeTarget "BtLockUITests" */;
+			buildPhases = (
+				354289E12125B7060045D7FD /* Sources */,
+				354289E22125B7060045D7FD /* Frameworks */,
+				354289E32125B7060045D7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354289E72125B7060045D7FD /* PBXTargetDependency */,
+			);
+			name = BtLockUITests;
+			productName = BtLockUITests;
+			productReference = 354289E52125B7060045D7FD /* BtLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		354289BE2125B7040045D7FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "郑学刚";
+				TargetAttributes = {
+					354289C52125B7040045D7FD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					354289D92125B7060045D7FD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 354289C52125B7040045D7FD;
+					};
+					354289E42125B7060045D7FD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 354289C52125B7040045D7FD;
+					};
+				};
+			};
+			buildConfigurationList = 354289C12125B7040045D7FD /* Build configuration list for PBXProject "BtLock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 354289BD2125B7040045D7FD;
+			productRefGroup = 354289C72125B7040045D7FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				354289C52125B7040045D7FD /* BtLock */,
+				354289D92125B7060045D7FD /* BtLockTests */,
+				354289E42125B7060045D7FD /* BtLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		354289C42125B7040045D7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354289D42125B7060045D7FD /* LaunchScreen.storyboard in Resources */,
+				354289D12125B7060045D7FD /* Assets.xcassets in Resources */,
+				354289CF2125B7040045D7FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354289D82125B7060045D7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354289E32125B7060045D7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		354289C22125B7040045D7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354289CC2125B7040045D7FD /* ViewController.swift in Sources */,
+				354289CA2125B7040045D7FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354289D62125B7060045D7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354289DF2125B7060045D7FD /* BtLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354289E12125B7060045D7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354289EA2125B7060045D7FD /* BtLockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		354289DC2125B7060045D7FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 354289C52125B7040045D7FD /* BtLock */;
+			targetProxy = 354289DB2125B7060045D7FD /* PBXContainerItemProxy */;
+		};
+		354289E72125B7060045D7FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 354289C52125B7040045D7FD /* BtLock */;
+			targetProxy = 354289E62125B7060045D7FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		354289CD2125B7040045D7FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354289CE2125B7040045D7FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		354289D22125B7060045D7FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354289D32125B7060045D7FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		354289EC2125B7060045D7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		354289ED2125B7060045D7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		354289EF2125B7060045D7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P87DU3RREN;
+				INFOPLIST_FILE = BtLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lz.com.BtLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		354289F02125B7060045D7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P87DU3RREN;
+				INFOPLIST_FILE = BtLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lz.com.BtLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		354289F22125B7060045D7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P87DU3RREN;
+				INFOPLIST_FILE = BtLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lz.com.BtLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BtLock.app/BtLock";
+			};
+			name = Debug;
+		};
+		354289F32125B7060045D7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P87DU3RREN;
+				INFOPLIST_FILE = BtLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lz.com.BtLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BtLock.app/BtLock";
+			};
+			name = Release;
+		};
+		354289F52125B7060045D7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P87DU3RREN;
+				INFOPLIST_FILE = BtLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lz.com.BtLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BtLock;
+			};
+			name = Debug;
+		};
+		354289F62125B7060045D7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P87DU3RREN;
+				INFOPLIST_FILE = BtLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lz.com.BtLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BtLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		354289C12125B7040045D7FD /* Build configuration list for PBXProject "BtLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354289EC2125B7060045D7FD /* Debug */,
+				354289ED2125B7060045D7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354289EE2125B7060045D7FD /* Build configuration list for PBXNativeTarget "BtLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354289EF2125B7060045D7FD /* Debug */,
+				354289F02125B7060045D7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354289F12125B7060045D7FD /* Build configuration list for PBXNativeTarget "BtLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354289F22125B7060045D7FD /* Debug */,
+				354289F32125B7060045D7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354289F42125B7060045D7FD /* Build configuration list for PBXNativeTarget "BtLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354289F52125B7060045D7FD /* Debug */,
+				354289F62125B7060045D7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 354289BE2125B7040045D7FD /* Project object */;
+}
